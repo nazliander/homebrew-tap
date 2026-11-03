@@ -1,28 +1,28 @@
 class Hooktop < Formula
   desc "Live view of Claude Code tool calls, subagents and CPU/RAM use"
   homepage "https://github.com/nazliander/hooktop"
-  version "0.1.2"
+  version "0.1.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nazliander/hooktop/releases/download/v0.1.2/hooktop-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "de520a764ae325babdabd75bedce1faf253926a254569948296cbdb2e1fdb900"
+      url "https://github.com/nazliander/hooktop/releases/download/v0.1.3/hooktop-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "03893d35ad69f36f23864f7d3841dbeb6fd64c27f6ed76d794ab702fbc13a7ba"
     end
     on_intel do
-      url "https://github.com/nazliander/hooktop/releases/download/v0.1.2/hooktop-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "ab4186b89b9705feff6dc7220104b6d1e05c0a23cf6716e78154729a67340b06"
+      url "https://github.com/nazliander/hooktop/releases/download/v0.1.3/hooktop-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "8623bb82fb61e1ad177d7f3c26e33c7115e6d979ffdfec1483f41d7b48a60ca0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nazliander/hooktop/releases/download/v0.1.2/hooktop-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "349755453902f34396008eab546a8df9faf5b4b68c499fd7ccf0269b9eaf65a3"
+      url "https://github.com/nazliander/hooktop/releases/download/v0.1.3/hooktop-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9743b9d8dbe112f7bb1ce8062953eee6f841a46a5760ddacf2bde712ae7006eb"
     end
     on_intel do
-      url "https://github.com/nazliander/hooktop/releases/download/v0.1.2/hooktop-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fa5ad0576de2452c282d34e69099d3aa845cf971a127373ed1ac9025304a0dcd"
+      url "https://github.com/nazliander/hooktop/releases/download/v0.1.3/hooktop-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ddd93c75c7ccc78bed4035940dd6288b28c0a5527a90e857a2e4e90afe6936e2"
     end
   end
 
